@@ -1,15 +1,14 @@
 // On récupère express
 const express = require("express");
+const app = express();
 
 // On récupère routes
 const router = require("./routes");
 
-const app = express();
-
 // On définit le port
 const PORT = process.env.PORT || 4000;
 
-// On lis le json 
+// On permet à l'API d'utiliser un json en body
 app.use(express.json());
 
 // On définit le endpoint

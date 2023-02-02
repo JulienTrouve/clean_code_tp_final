@@ -12,3 +12,14 @@ npm install
 # Lancer l'API
 
 node index.js
+
+# Exemple de requête
+
+http://localhost:4000/myMath/Randomize
+
+# Exemple du json
+
+{
+    "min": 0,
+    "max": 5
+}
